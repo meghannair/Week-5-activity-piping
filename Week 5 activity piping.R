@@ -70,7 +70,8 @@ mysample %>%
   filter(incidents_85_99<25) %>%
   rename(seats = avail_seat_km_per_week) %>%
   select(incidents_00_14, incidents_85_99) %>%
-  summary()
+  summary() %>%
+  print()
 
   
 
